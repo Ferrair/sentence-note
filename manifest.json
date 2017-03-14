@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "Sentence Note",
+  "description": "Help you mark your thinking on a sentence everywhere in a web page and show each time you visit the web page",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+    "default_title": "View Note"
+  },
+  "background": {
+    "scripts": [
+      "/src/context_menu.js"
+    ]
+  },
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "contextMenus"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["/src/content.js"]
+    }
+  ]
+}

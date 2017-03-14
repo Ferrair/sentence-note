@@ -1,0 +1,44 @@
+body {
+    font-family: Consolas, monaco, monospace;
+}
+
+.sentence-note-popup {
+    height: 100%;
+    width: 90%;
+    padding: 15px;
+    background-color: ivory;
+    position: relative;
+}
+
+.sentence-note-popup-input {
+    width: 100%;
+    display: block;
+    line-height: 1.5;
+    border-radius: 3px;
+    border: 1px solid #F7E98D;
+    transition: box-shadow 0.5s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.sentence-note-popup-submit {
+    margin-top: 20px;
+    background-color: greenyellow;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    float: right;
+}
+
+.sentence-note-popup-label {
+    line-height: 1.5;
+    margin: 10px 0;
+    display: inline-block;
+}
+
+.sentence-note-popup-submit:hover {
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}

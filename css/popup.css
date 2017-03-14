@@ -1,0 +1,10 @@
+body {
+    font-family: Consolas, monaco, monospace;
+}
+.popup{
+    width: auto;
+}
+
+.popupViewAllNotesButton{
+    width: 110px;
+}
